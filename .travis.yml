@@ -21,7 +21,8 @@ after_success:
   - docker push sagarmshukla/multi-server
   - docker push sagarmshukla/multi-worker
 
-deploy:
+
+  deploy:
   provider: elasticbeanstalk
   region: us-east-1
   app: multi-docker
